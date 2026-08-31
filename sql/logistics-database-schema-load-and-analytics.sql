@@ -1,4 +1,17 @@
 -- ==============================================================================
+-- TRANSPORTATION & LOGISTICS DATABASE: SCHEMA, DATA LOAD, AND ANALYTICS
+-- ==============================================================================
+-- Purpose:
+--   1. Create the SQL Server database and its 13-table relational schema.
+--   2. Load the supplied CSV source tables with BULK INSERT.
+--   3. Create reusable views and run 10 operational analytical queries.
+--
+-- Before execution, update the BULK INSERT base paths for your SQL Server host.
+-- The assumed/demo operational tables are documented separately from the
+-- historical EDA and Power BI dataset.
+-- ==============================================================================
+
+-- ==============================================================================
 -- 1. CREATE AND USE THE PROJECT DATABASE
 -- ==============================================================================
 
