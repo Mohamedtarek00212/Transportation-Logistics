@@ -139,6 +139,9 @@ GO
 
 -- ==============================================================================
 -- 6. ASSUMED TRANSACTIONAL TABLES (Tracking, Attempts, and POD)
+-- These operational tables are demo/assumed data used to test the proposed
+-- database design and analytical queries. They are separate from the historical
+-- shipment KPI dataset used in the EDA and Power BI findings.
 -- ==============================================================================
 
 CREATE TABLE TrackingEvents 

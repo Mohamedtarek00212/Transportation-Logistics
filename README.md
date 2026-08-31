@@ -41,15 +41,17 @@ The project investigates why shipments are delayed, where operational bottleneck
 Raw Data -> Data Cleaning -> EDA -> SQL Database -> Power BI -> Recommendations
 ```
 
-## SQL Database
+## SQL Database Solution
 
-The SQL solution contains 13 relational tables centered on `Shipments`:
+The SQL layer is a designed solution and proof of concept built on top of the historical analysis. It contains 13 relational tables centered on `Shipments`:
 
 - Reference data: `Countries`, `ShipmentStatusLookup`, `FailureReasonLookup`, `MaterialLookup`
 - Business entities: `Hubs`, `Customers`, `Employees`, `Couriers`
 - Transactional data: `Shipments`, `Payments`, `TrackingEvents`, `DeliveryAttempts`, `ProofOfDelivery`
 
 The final script also includes 10 analytical queries covering shipment history, hub throughput, courier success, delivery failures, late shipments, stuck shipments, proof of delivery, and revenue.
+
+The historical shipment dataset is the evidence base for the EDA and Power BI findings. The operational tables `TrackingEvents`, `DeliveryAttempts`, `Payments`, and `ProofOfDelivery` are assumed/demo transactional tables created to test the proposed database design and query layer. They demonstrate how a future live tracking system could capture operational history; they are not used to recalculate the historical delay KPI.
 
 ## Power BI Dashboard
 
@@ -110,7 +112,7 @@ Update the dataset path in the notebook if your local folder structure differs.
 
 ## Data Availability Note
 
-All 13 source-table files are now included in `sql/tables/`. Before joining `TrackingEvents` to the shipment analysis, verify the time alignment: the supplied tracking events range from February 2025 to March 2026, while the shipment dataset analyzed in this project ranges from March 2019 to September 2020.
+All 13 source-table files are now included in `sql/tables/`. The assumed/demo operational tables contain 2025–2026 timestamps, while the historical shipment analysis covers March 2019 to September 2020. Keep these layers separate unless a production source with matching shipment dates becomes available.
 
 ## Author
 
