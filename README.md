@@ -4,6 +4,8 @@ End-to-end data analytics and business intelligence case study focused on shipme
 
 The project combines Python EDA, SQL Server database design, Power BI dashboards, and business storytelling to turn 6,773 cleaned shipment records into actionable operational recommendations.
 
+**[View the live interactive Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiNDc1N2JkOTAtNjk1OS00NTg5LTg5ZDEtZTUzY2VhMDQ4YThlIiwidCI6IjJiYjZlNWJjLWMxMDktNDdmYi05NDMzLWMxYzZmNGZhMzNmZiIsImMiOjl9)**
+
 ![Case study cover](assets/images/case-study-cover.png)
 
 ## Business Problem
@@ -62,6 +64,8 @@ The dashboard is organized into three operational views:
 1. Delay Analysis
 2. Suppliers & Customers
 3. Fleet & GPS
+
+[Open the published dashboard in Power BI](https://app.powerbi.com/view?r=eyJrIjoiNDc1N2JkOTAtNjk1OS00NTg5LTg5ZDEtZTUzY2VhMDQ4YThlIiwidCI6IjJiYjZlNWJjLWMxMDktNDdmYi05NDMzLWMxYzZmNGZhMzNmZiIsImMiOjl9)
 
 ![Power BI overview](assets/images/dashboard-overview.png)
 
