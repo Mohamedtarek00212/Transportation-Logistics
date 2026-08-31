@@ -2,6 +2,8 @@
 
 End-to-end data analytics and business intelligence case study focused on shipment delays, operational bottlenecks, and logistics performance.
 
+The project combines Python EDA, SQL Server database design, Power BI dashboards, and business storytelling to turn 6,773 cleaned shipment records into actionable operational recommendations.
+
 ![Case study cover](assets/images/case-study-cover.png)
 
 ## Business Problem
@@ -99,6 +101,7 @@ assets/images/  Images used in this README
 - [Database ERD](docs/database-erd.md)
 - [Power BI dashboard file](power-bi/transportation-logistics-dashboard.pbix)
 - [Arabic analytical report](docs/transportation-logistics-report-ar.pdf)
+- [Editable Arabic report source](docs/transportation-logistics-report-ar.docx)
 - [Case study PDF](presentation/transportation-logistics-case-study.pdf)
 
 ## Running the Notebook
@@ -117,4 +120,5 @@ All 13 source-table files are now included in `sql/tables/`. The assumed/demo op
 ## Author
 
 **Mohamed Tarek**  
-Data Analyst
+Data Analyst  
+[LinkedIn](https://www.linkedin.com/in/mohamedtarek-aboelkhir/) | [GitHub](https://github.com/Mohamedtarek00212)
