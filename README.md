@@ -93,7 +93,7 @@ data/           Raw and cleaned Excel datasets
 notebooks/      Python EDA notebook
 sql/            Database schema, bulk-load logic, analytical queries, source tables, and query evidence
 power-bi/       PBIX file and dashboard screenshots
-docs/           ERD, Arabic report, and business narrative
+docs/           ERD, English analytics report, and business narrative
 presentation/   Case study in PDF and PowerPoint formats
 assets/images/  Images used in this README
 ```
@@ -105,8 +105,8 @@ assets/images/  Images used in this README
 - [Database ERD documentation](docs/transportation-logistics-database-erd.md)
 - [Business storytelling narrative](docs/transportation-logistics-business-story.md)
 - [Power BI dashboard file](power-bi/transportation-logistics-dashboard.pbix)
-- [Arabic analytical report](docs/transportation-logistics-report-ar.pdf)
-- [Editable Arabic report source](docs/transportation-logistics-report-ar.docx)
+- [English analytical report](docs/transportation-logistics-analytics-report.pdf)
+- [Editable English report source](docs/transportation-logistics-analytics-report.docx)
 - [Case study PDF](presentation/transportation-logistics-case-study.pdf)
 
 ## Running the Notebook
