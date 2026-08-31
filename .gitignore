@@ -1,0 +1,22 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Temporary and generated files
+*.tmp
+*.log
+*.inspect.ndjson
+~$*
+_slide_build/
+
+# Power BI temporary files
+*.pbix.autosave
+
