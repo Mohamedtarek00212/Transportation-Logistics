@@ -105,8 +105,8 @@ assets/images/  Images used in this README
 - [Database ERD documentation](docs/transportation-logistics-database-erd.md)
 - [Business storytelling narrative](docs/transportation-logistics-business-story.md)
 - [Power BI dashboard file](power-bi/transportation-logistics-dashboard.pbix)
-- [English analytical report](docs/transportation-logistics-analytics-report.pdf)
-- [Editable English report source](docs/transportation-logistics-analytics-report.docx)
+- [Analytical report](docs/transportation-logistics-analytics-report.pdf)
+- [Editable report source](docs/transportation-logistics-analytics-report.docx)
 - [Case study PDF](presentation/transportation-logistics-case-study.pdf)
 
 ## Running the Notebook
