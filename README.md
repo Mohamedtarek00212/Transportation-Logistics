@@ -110,7 +110,7 @@ Update the dataset path in the notebook if your local folder structure differs.
 
 ## Data Availability Note
 
-The SQL script references `TrackingEvents.csv`, but that source file is not currently included. Add it to `sql/tables/` before running the complete bulk-load section.
+All 13 source-table files are now included in `sql/tables/`. Before joining `TrackingEvents` to the shipment analysis, verify the time alignment: the supplied tracking events range from February 2025 to March 2026, while the shipment dataset analyzed in this project ranges from March 2019 to September 2020.
 
 ## Author
 
